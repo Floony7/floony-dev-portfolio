@@ -1,15 +1,14 @@
 import styled from "styled-components"
 
-const GridContainer = styled.div`
+const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+    "header header header header header header"
+    ". main main main main ."
+    "footer footer footer footer footer footer";
   width: 100%;
-  margin: 0 auto;
-  gap: 0.5em;
+  gap: 0.2em;
 `
-
-const Grid = ({ children }) => {
-  return <GridContainer>{children}</GridContainer>
-}
 
 export default Grid

@@ -2,7 +2,8 @@ import styled from "styled-components"
 import Link from "next/link"
 
 const Inner = styled.nav`
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   ul {
     list-style-type: none;
     display: flex;
@@ -11,17 +12,24 @@ const Inner = styled.nav`
   }
 `
 
+const NavItem = styled.li`
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+`
+
 const Navbar = () => {
   return (
     <Inner>
       <ul>
-        <li>
+        <NavItem>
           <Link href="/">Home</Link>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <Link href="/about">About</Link>
-        </li>
-        <li>Contact</li>
+        </NavItem>
+        <NavItem>Contact</NavItem>
       </ul>
     </Inner>
   )
