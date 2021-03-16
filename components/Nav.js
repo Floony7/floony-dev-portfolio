@@ -13,10 +13,13 @@ const Inner = styled.nav`
 `
 
 const NavItem = styled.li`
-  text-decoration: none;
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+
+  a {
+    text-decoration: none;
+    color: #e3e3e3;
+  }
 `
 
 const Navbar = () => {
@@ -24,12 +27,20 @@ const Navbar = () => {
     <Inner>
       <ul>
         <NavItem>
-          <Link href="/">Home</Link>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </NavItem>
         <NavItem>
-          <Link href="/about">About</Link>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </NavItem>
-        <NavItem>Contact</NavItem>
+        <NavItem>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </NavItem>
       </ul>
     </Inner>
   )

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "JSANZ",
+    "img": "jsanz.png",
+    "description": "Website for JSANZ organisation.",
+    "Tech": "WordPress"
+  },
+  {
+    "id": "2",
+    "name": "fredweb",
+    "img": "fredweb.png",
+    "description": "My original custom WordPress portfolio.",
+    "Tech": "WordPress"
+  },
+  {
+    "id": "3",
+    "name": "Periodic Table",
+    "img": "periodic.png",
+    "description": "React project designed to practice consuming an API and using the React Context.",
+    "Tech": "React"
+  },
+  {
+    "id": "4",
+    "name": "Four Seasons",
+    "img": "fourseasons.png",
+    "description": "Part of the team that designe dand built the Four Seasons restaurant website.",
+    "Tech": "Bootstrap"
+  },
+  {
+    "id": "5",
+    "name": "Piko",
+    "img": "fourseasons.png",
+    "description": "Part of the team that designed and built the Piko Cafe website.",
+    "Tech": "Bootstrap"
+  },
+  {
+    "id": "6",
+    "name": "Countries",
+    "img": "countries.png",
+    "description": "React project that uses the Context API and React Router to create a country information portal.",
+    "Tech": "React"
+  },
+  {
+    "id": "7",
+    "name": "floony dev",
+    "img": "floonydev.png",
+    "description": "This statically generated website, built with Next.js.",
+    "Tech": "Next.js"
+  }
+]
